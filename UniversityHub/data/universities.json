@@ -1,0 +1,227 @@
+[
+    {
+        "id": 1,
+        "name": "University of the Free State",
+        "type": "public",
+        "location": "Bloemfontein",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 2,
+        "name": "Sefako Makgatho Health Sciences University",
+        "type": "public",
+        "location": "Pretoria",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 3,
+        "name": "Tshwane University of Technology",
+        "type": "public",
+        "location": "Pretoria",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 4,
+        "name": "University of Johannesburg",
+        "type": "public",
+        "location": "Johannesburg",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 5,
+        "name": "Rhodes University",
+        "type": "public",
+        "location": "Grahamstown",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 6,
+        "name": "Cape Peninsula University of Technology",
+        "type": "public",
+        "location": "Cape Town",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 7,
+        "name": "Mangosuthu University of Technology",
+        "type": "public",
+        "location": "Durban",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 8,
+        "name": "Nelson Mandela University",
+        "type": "public",
+        "location": "Port Elizabeth",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 9,
+        "name": "University of Fort Hare",
+        "type": "public",
+        "location": "Alice",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 10,
+        "name": "University of Pretoria",
+        "type": "public",
+        "location": "Pretoria",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 11,
+        "name": "Central University of Technology",
+        "type": "public",
+        "location": "Bloemfontein",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 12,
+        "name": "University of Cape Town",
+        "type": "public",
+        "location": "Cape Town",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 13,
+        "name": "University of Mpumalanga",
+        "type": "public",
+        "location": "Nelspruit",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 14,
+        "name": "University of KwaZulu-Natal",
+        "type": "public",
+        "location": "Durban",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 15,
+        "name": "University of the Western Cape",
+        "type": "public",
+        "location": "Bellville",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 17,
+        "name": "University of Zululand",
+        "type": "public",
+        "location": "Kwadlangezwa",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 18,
+        "name": "Sol Plaatje University",
+        "type": "public",
+        "location": "Kimberley",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 19,
+        "name": "University of Limpopo",
+        "type": "public",
+        "location": "Mankweng",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 20,
+        "name": "University of Venda",
+        "type": "public",
+        "location": "Thohoyandou",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 21,
+        "name": "Universiteit Stellenbosch",
+        "type": "public",
+        "location": "Stellenbosch",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 22,
+        "name": "North-West University",
+        "type": "public",
+        "location": "Potchefstroom",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 23,
+        "name": "Durban University of Technology",
+        "type": "public",
+        "location": "Durban",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 24,
+        "name": "University of the Witwatersrand",
+        "type": "public",
+        "location": "Johannesburg",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 25,
+        "name": "Walter Sisulu University",
+        "type": "public",
+        "location": "Mthatha",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    },
+    {
+        "id": 26,
+        "name": "Vaal University of Technology",
+        "type": "public",
+        "location": "Vanderbijlpark",
+        "admissionRequirements": "",
+        "courseOfferings": [],
+        "contact": ""
+    }
+]

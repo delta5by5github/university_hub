@@ -1,0 +1,149 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.search-filter-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    gap: 20px;
+    align-items: center;
+}
+
+.search-bar {
+    flex-grow: 1; /* Takes up available space */
+    display: flex;
+    gap: 10px;
+}
+
+.search-bar input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.search-bar button:hover {
+    background-color: #218838;
+}
+
+.filters {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.filter-group h2 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.filter-group select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.university-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.university-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.university-card:hover {
+    transform: translateY(-5px);
+}
+
+.university-card h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.university-card p {
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+}
+
+/* --- Media Queries for Responsiveness --- */
+@media (max-width: 768px) {
+    .search-filter-section {
+        flex-direction: column; /* Stack search and filters on smaller screens */
+        align-items: stretch;
+    }
+
+    .filters {
+        flex-direction: column; /* Stack filters */
+    }
+
+    .filter-group {
+        width: 100%; /* Make filter groups full width */
+    }
+}
+
+@media (max-width: 480px) {
+    .search-bar {
+        flex-direction: column;
+    }
+    .search-bar button {
+        width: 100%;
+    }
+}

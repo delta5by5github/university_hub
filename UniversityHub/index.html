@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>University Hub for Grade 12s</h1>
+        <nav>
+            </nav>
+    </header>
+
+    <main>
+        <section class="search-filter-section">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search by name, location, or course...">
+                <button id="searchButton">Search</button>
+            </div>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <h2>Filter by Type</h2>
+                    <select id="typeFilter">
+                        <option value="all">All</option>
+                        <option value="public">Public</option>
+                        <option value="private">Private</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <h2>Filter by Location</h2>
+                    <select id="locationFilter">
+                        <option value="all">All</option>
+                        </select>
+                </div>
+
+                <div class="filter-group">
+                    <h2>Filter by Course</h2>
+                    <select id="courseFilter">
+                        <option value="all">All</option>
+                        </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="university-catalogue">
+            <h2>Our Institutions</h2>
+            <div id="universityList" class="university-grid">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 University Hub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
