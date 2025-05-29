@@ -4,224 +4,319 @@
         "name": "University of the Free State",
         "type": "public",
         "location": "Bloemfontein",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "Specific subject requirements and APS score.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "studentadmin@ufs.ac.za",
+        "websiteUrl": "https://www.ufs.ac.za/"
     },
     {
         "id": 2,
         "name": "Sefako Makgatho Health Sciences University",
         "type": "public",
         "location": "Pretoria",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "Specific subject requirements and APS score, particularly for health sciences.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "admissions@smhsu.ac.za",
+        "websiteUrl": "https://www.smu.ac.za/"
     },
     {
         "id": 3,
         "name": "Tshwane University of Technology",
         "type": "public",
         "location": "Pretoria",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "NSC Diploma or Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "general@tut.ac.za",
+        "websiteUrl": "https://www.tut.ac.za/"
     },
     {
         "id": 4,
         "name": "University of Johannesburg",
         "type": "public",
         "location": "Johannesburg",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "mylife@uj.ac.za",
+        "websiteUrl": "https://www.uj.ac.za/"
     },
     {
         "id": 5,
         "name": "Rhodes University",
         "type": "public",
         "location": "Grahamstown",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "communications@ru.ac.za",
+        "websiteUrl": "https://www.ru.ac.za/"
     },
     {
         "id": 6,
         "name": "Cape Peninsula University of Technology",
         "type": "public",
         "location": "Cape Town",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "NSC Diploma or Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "info@cput.ac.za",
+        "websiteUrl": "https://www.cput.ac.za/"
     },
     {
         "id": 7,
         "name": "Mangosuthu University of Technology",
         "type": "public",
         "location": "Durban",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "NSC Diploma or Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "info@mut.ac.za",
+        "websiteUrl": "https://www.mut.ac.za/"
     },
     {
         "id": 8,
         "name": "Nelson Mandela University",
         "type": "public",
         "location": "Port Elizabeth",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "info@mandela.ac.za",
+        "websiteUrl": "https://mandela.ac.za/"
     },
     {
         "id": 9,
         "name": "University of Fort Hare",
         "type": "public",
         "location": "Alice",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "info@ufh.ac.za",
+        "websiteUrl": "https://www.ufh.ac.za/"
     },
     {
         "id": 10,
         "name": "University of Pretoria",
         "type": "public",
         "location": "Pretoria",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "ssc@up.ac.za",
+        "websiteUrl": "https://www.up.ac.za/"
     },
     {
         "id": 11,
         "name": "Central University of Technology",
         "type": "public",
         "location": "Bloemfontein",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "NSC Diploma or Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "+27 (0)51 507 3911",
+        "websiteUrl": "https://www.cut.ac.za/"
     },
     {
         "id": 12,
         "name": "University of Cape Town",
         "type": "public",
         "location": "Cape Town",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "+27 (0)21 650 9111",
+        "websiteUrl": "https://www.uct.ac.za/"
     },
     {
         "id": 13,
         "name": "University of Mpumalanga",
         "type": "public",
         "location": "Nelspruit",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "info@ump.ac.za",
+        "websiteUrl": "https://www.ump.ac.za/"
     },
     {
         "id": 14,
         "name": "University of KwaZulu-Natal",
         "type": "public",
         "location": "Durban",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "+27 31 260 1111",
+        "websiteUrl": "https://ukzn.ac.za/"
     },
     {
         "id": 15,
         "name": "University of the Western Cape",
         "type": "public",
         "location": "Bellville",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "info@uwc.ac.za",
+        "websiteUrl": "https://www.uwc.ac.za/"
     },
     {
         "id": 17,
         "name": "University of Zululand",
         "type": "public",
         "location": "Kwadlangezwa",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "None",
+        "websiteUrl": "https://www.unizulu.ac.za/"
     },
     {
         "id": 18,
         "name": "Sol Plaatje University",
         "type": "public",
         "location": "Kimberley",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "information@spu.ac.za",
+        "websiteUrl": "https://www.spu.ac.za/"
     },
     {
         "id": 19,
         "name": "University of Limpopo",
         "type": "public",
         "location": "Mankweng",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "enrolment@ul.ac.za",
+        "websiteUrl": "https://www.ul.ac.za/"
     },
     {
         "id": 20,
         "name": "University of Venda",
         "type": "public",
         "location": "Thohoyandou",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "+27 15 962 8000",
+        "websiteUrl": "https://www.univen.ac.za/"
     },
     {
         "id": 21,
-        "name": "Universiteit Stellenbosch",
+        "name": "Stellenbosch University",
         "type": "public",
         "location": "Stellenbosch",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "info@sun.ac.za",
+        "websiteUrl": "https://www.sun.ac.za/"
     },
     {
         "id": 22,
         "name": "North-West University",
         "type": "public",
         "location": "Potchefstroom",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "studies@nwu.ac.za",
+        "websiteUrl": "https://www.nwu.ac.za/"
     },
     {
         "id": 23,
         "name": "Durban University of Technology",
         "type": "public",
         "location": "Durban",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "NSC Diploma or Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "info@dut.ac.za",
+        "websiteUrl": "https://www.dut.ac.za/"
     },
     {
         "id": 24,
         "name": "University of the Witwatersrand",
         "type": "public",
         "location": "Johannesburg",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "Click here",
+        "websiteUrl": "https://www.wits.ac.za/"
     },
     {
         "id": 25,
         "name": "Walter Sisulu University",
         "type": "public",
         "location": "Mthatha",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "APS score, NSC Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "enquiries@wsu.ac.za",
+        "websiteUrl": "https://www.wsu.ac.za/"
     },
     {
         "id": 26,
         "name": "Vaal University of Technology",
         "type": "public",
         "location": "Vanderbijlpark",
-        "admissionRequirements": "",
-        "courseOfferings": [],
-        "contact": ""
+        "admissionRequirements": "NSC Diploma or Bachelor's pass, specific subject requirements.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters", "PhD"],
+        "contact": "vutmedia@vut.ac.za",
+        "websiteUrl": "https://www.vut.ac.za/"
+    },
+    {
+        "id": 27,
+        "name": "Auckland Park Theological Seminary",
+        "type": "private",
+        "location": "Johannesburg",
+        "admissionRequirements": "Contact institution for details.",
+        "qualificationLevels": ["Undergrad", "Postgrad"],
+        "contact": "Contact institution for details.",
+        "websiteUrl": "https://www.apts.ac.za/"
+    },
+    {
+        "id": 28,
+        "name": "Open Christian University",
+        "type": "private",
+        "location": "Online",
+        "admissionRequirements": "Contact institution for details.",
+        "qualificationLevels": ["Undergrad", "Postgrad"],
+        "contact": "Contact institution for details.",
+        "websiteUrl": "https://www.openchristianuniversity.org/"
+    },
+    {
+        "id": 29,
+        "name": "Baptist Theological College of Southern Africa",
+        "type": "private",
+        "location": "Johannesburg",
+        "admissionRequirements": "Contact institution for details.",
+        "qualificationLevels": ["Undergrad", "Postgrad"],
+        "contact": "Contact institution for details.",
+        "websiteUrl": "https://www.btcsa.co.za/"
+    },
+    {
+        "id": 30,
+        "name": "George Whitefield College",
+        "type": "private",
+        "location": "Cape Town",
+        "admissionRequirements": "Contact institution for details.",
+        "qualificationLevels": ["Undergrad", "Postgrad"],
+        "contact": "info@gwc.ac.za",
+        "websiteUrl": "https://gwc.ac.za/"
+    },
+    {
+        "id": 31,
+        "name": "South African Theological Seminary",
+        "type": "private",
+        "location": "Online",
+        "admissionRequirements": "Contact institution for details.",
+        "qualificationLevels": ["Undergrad", "Postgrad"],
+        "contact": "info@sats.ac.za",
+        "websiteUrl": "https://www.sats.ac.za/"
+    },
+    {
+        "id": 32,
+        "name": "St Augustine College of South Africa",
+        "type": "private",
+        "location": "Johannesburg",
+        "admissionRequirements": "Contact institution for details.",
+        "qualificationLevels": ["Undergrad", "Postgrad", "Masters"],
+        "contact": "admin@staugustine.ac.za",
+        "websiteUrl": "https://www.staugustine.ac.za/"
+    },
+    {
+        "id": 33,
+        "name": "Two Oceans Graduate Institute",
+        "type": "private",
+        "location": "Cape Town",
+        "admissionRequirements": "Contact institution for details.",
+        "qualificationLevels": ["Undergrad", "Postgrad"],
+        "contact": "info@togi.ac.za",
+        "websiteUrl": "https://www.togi.ac.za/"
     }
 ]

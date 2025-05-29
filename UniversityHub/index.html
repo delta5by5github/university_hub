@@ -2,27 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="assets/Leonardo_Phoenix_a_modern_sleek_company_logo_featuring_two_smo_2-removebg-preview.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University Hub</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>University Hub for Grade 12s</h1>
-        <nav>
-            </nav>
-    </header>
+  <h1>University Hub</h1>
+  <p>Find the university of your choice</p>
+  <nav>
+   
+  </nav>
+</header>
 
     <main>
         <section class="search-filter-section">
             <div class="search-bar">
-                <input type="text" id="searchInput" placeholder="Search by name, location, or course...">
+                <input type="text" id="searchInput" placeholder="Search by name, location, or requirement...">
                 <button id="searchButton">Search</button>
             </div>
 
             <div class="filters">
                 <div class="filter-group">
-                    <h2>Filter by Type</h2>
+                    <h2>Type</h2>
                     <select id="typeFilter">
                         <option value="all">All</option>
                         <option value="public">Public</option>
@@ -31,15 +34,15 @@
                 </div>
 
                 <div class="filter-group">
-                    <h2>Filter by Location</h2>
+                    <h2>Location</h2>
                     <select id="locationFilter">
                         <option value="all">All</option>
                         </select>
                 </div>
 
                 <div class="filter-group">
-                    <h2>Filter by Course</h2>
-                    <select id="courseFilter">
+                    <h2>Qualification Level</h2> 
+                    <select id="qualificationLevelFilter"> 
                         <option value="all">All</option>
                         </select>
                 </div>
@@ -47,7 +50,8 @@
         </section>
 
         <section class="university-catalogue">
-            <h2>Our Institutions</h2>
+            <h2>South African Institutions</h2>
+            <br>
             <div id="universityList" class="university-grid">
                 </div>
         </section>

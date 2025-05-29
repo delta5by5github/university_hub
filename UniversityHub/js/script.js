@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     const typeFilter = document.getElementById('typeFilter');
     const locationFilter = document.getElementById('locationFilter');
-    const courseFilter = document.getElementById('courseFilter');
+    const qualificationLevelFilter = document.getElementById('qualificationLevelFilter'); 
 
-    let allUniversities = []; // Store the original data
-    let currentFilteredUniversities = []; // Store currently displayed data
+    let allUniversities = [];
+    let currentFilteredUniversities = [];
 
     // --- Fetch University Data ---
     async function fetchUniversities() {
@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             allUniversities = await response.json();
-            populateFilters(); // Populate filters once data is loaded
-            displayUniversities(allUniversities); // Display all universities initially
+            populateFilters();
+            displayUniversities(allUniversities);
         } catch (error) {
             console.error('Error fetching universities:', error);
             universityListContainer.innerHTML = '<p>Could not load university data. Please try again later.</p>';
@@ -27,14 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Populate Filter Dropdowns ---
     function populateFilters() {
         const locations = new Set();
-        const courses = new Set();
+        const predefinedQualificationLevels = ["Undergrad", "Postgrad", "Masters", "PhD"];
 
         allUniversities.forEach(uni => {
             locations.add(uni.location);
-            uni.courseOfferings.forEach(course => courses.add(course));
         });
 
-        // Populate Location Filter
+        locationFilter.innerHTML = '<option value="all">All</option>';
         locations.forEach(location => {
             const option = document.createElement('option');
             option.value = location;
@@ -42,18 +41,18 @@ document.addEventListener('DOMContentLoaded', () => {
             locationFilter.appendChild(option);
         });
 
-        // Populate Course Filter
-        courses.forEach(course => {
+        qualificationLevelFilter.innerHTML = '<option value="all">All</option>';
+        predefinedQualificationLevels.forEach(level => {
             const option = document.createElement('option');
-            option.value = course;
-            option.textContent = course;
-            courseFilter.appendChild(option);
+            option.value = level;
+            option.textContent = level;
+            qualificationLevelFilter.appendChild(option);
         });
     }
 
     // --- Display Universities (Render Function) ---
     function displayUniversities(universities) {
-        universityListContainer.innerHTML = ''; // Clear previous results
+        universityListContainer.innerHTML = '';
         if (universities.length === 0) {
             universityListContainer.innerHTML = '<p>No universities found matching your criteria.</p>';
             return;
@@ -62,14 +61,27 @@ document.addEventListener('DOMContentLoaded', () => {
         universities.forEach(uni => {
             const universityCard = document.createElement('div');
             universityCard.classList.add('university-card');
+
+            // Removed the logo container HTML here
             universityCard.innerHTML = `
                 <h3>${uni.name}</h3>
                 <p><strong>Type:</strong> ${uni.type}</p>
                 <p><strong>Location:</strong> ${uni.location}</p>
-                <p><strong>Admission Requirements:</strong> ${uni.admissionRequirements}</p>
-                <p><strong>Course Offerings:</strong> ${uni.courseOfferings.join(', ')}</p>
-                <p><strong>Contact:</strong> ${uni.contact}</p>
+                <p><strong>Admission Requirements:</strong> ${uni.admissionRequirements || 'N/A'}</p>
+                <p><strong>Qualification Levels:</strong> ${uni.qualificationLevels.join(', ')}</p>
+                <p><strong>Contact:</strong> ${uni.contact || 'N/A'}</p>
             `;
+            
+            // Add click event listener to the entire card
+            universityCard.addEventListener('click', () => {
+                if (uni.websiteUrl && uni.websiteUrl !== "#") {
+                    window.open(uni.websiteUrl, '_blank');
+                } else {
+                    console.warn(`No valid website URL found for ${uni.name}.`);
+                    alert(`Website not available for ${uni.name}. Please try contacting them directly.`);
+                }
+            });
+
             universityListContainer.appendChild(universityCard);
         });
     }
@@ -79,19 +91,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const searchTerm = searchInput.value.toLowerCase();
         const selectedType = typeFilter.value;
         const selectedLocation = locationFilter.value;
-        const selectedCourse = courseFilter.value;
+        const selectedQualificationLevel = qualificationLevelFilter.value; 
 
         currentFilteredUniversities = allUniversities.filter(uni => {
             const matchesSearch = searchTerm === '' ||
                                   uni.name.toLowerCase().includes(searchTerm) ||
                                   uni.location.toLowerCase().includes(searchTerm) ||
-                                  uni.courseOfferings.some(course => course.toLowerCase().includes(searchTerm));
+                                  uni.admissionRequirements.toLowerCase().includes(searchTerm);
 
             const matchesType = selectedType === 'all' || uni.type === selectedType;
             const matchesLocation = selectedLocation === 'all' || uni.location === selectedLocation;
-            const matchesCourse = selectedCourse === 'all' || uni.courseOfferings.includes(selectedCourse);
+            const matchesQualificationLevel = selectedQualificationLevel === 'all' || uni.qualificationLevels.includes(selectedQualificationLevel);
 
-            return matchesSearch && matchesType && matchesLocation && matchesCourse;
+            return matchesSearch && matchesType && matchesLocation && matchesQualificationLevel;
         });
 
         displayUniversities(currentFilteredUniversities);
@@ -101,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', applyFiltersAndSearch);
     typeFilter.addEventListener('change', applyFiltersAndSearch);
     locationFilter.addEventListener('change', applyFiltersAndSearch);
-    courseFilter.addEventListener('change', applyFiltersAndSearch);
+    qualificationLevelFilter.addEventListener('change', applyFiltersAndSearch); 
 
     // Initial data load
     fetchUniversities();
